@@ -59,8 +59,7 @@ El
   "scripts": {
     "clean": "rmdir /s /q dist",
     "build": "mkdir dist && xcopy /s /y /i src dist",
-    "start": "node dist\\index.js",
-    "start:prod": "cross-env NODE_ENV=production node dist\\index.js"
+    "start": "node dist\\index.js"
   }
 }
 ```
@@ -79,8 +78,7 @@ El
 ```json
 {
   "dependencies": {
-    "express": "^4.17.1",
-    "dotenv": "^16.0.0"
+    "express": "^4.17.1"
   }
 }
 ```
