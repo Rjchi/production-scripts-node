@@ -22,7 +22,7 @@ npm run build
 
 3. Iniciar servidor en producción:
 ```bash
-npm run start:prod
+npm run start
 ```
 
 ## Estructura del Proyecto
